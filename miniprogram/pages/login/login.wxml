@@ -1,0 +1,15 @@
+<!--pages/login/login.wxml-->
+<view class="login-container">
+  <view class="title"><br>用户登录</br></view>
+  <view class="login-box">
+    <label>用户名</label>
+    <input bindinput="inputName" placeholder="请输入用户名" placeholder-style="color:#999999;" />
+    <label>密码</label>
+    <input bindinput="inputPassword" placeholder="请输入密码" password />
+    <button class="btn" type="primary" style="background-color: #f0f2f6; color: #00375f;" bindtap="login">立即登录</button>
+    <text>\n</text>
+    <button class="btn" type="primary" style="background-color:#00375f; opacity: 85%;" bindtap="register">注册</button>
+  </view>
+
+  
+</view>

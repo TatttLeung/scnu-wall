@@ -1,0 +1,31 @@
+#00375f
+#9fceec
+
+
+####################################
+tabBar写法
+"tabBar": {
+    "backgroundColor": "#00cd66",
+    "color": "white",
+    "selectedColor": "#9fceec",
+    "list": 
+    [
+    {
+      "text": "首页",
+      "pagePath": "/pages/index/index",
+      "iconPath": "none",
+      "selectedIconPath": "none"
+    },
+    {
+      "text": "demo",
+      "pagePath": "#demo",
+      "iconPath": "none",
+      "selectedIconPath": "none"
+    }
+    ]
+  }
+
+talk.png: https://s3.bmp.ovh/imgs/2021/12/8d42aad4125f9827.png
+deal.png: https://s3.bmp.ovh/imgs/2021/12/4d4a43ed60e91897.png
+like.png: https://s3.bmp.ovh/imgs/2021/12/0259016fda8d521c.png
+album.png: https://s3.bmp.ovh/imgs/2021/12/eba44ba0a1762481.png

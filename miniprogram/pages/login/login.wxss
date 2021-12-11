@@ -1,0 +1,98 @@
+/* pages/login/login.wxss */
+/* pages/login/login.wxss */
+
+@keyframes back-ani {
+  0% {background-image: linear-gradient(0deg,#9fceec,whitesmoke);}
+  2.5% {background-image: linear-gradient(9deg,#9fceec,whitesmoke);}
+  5% {background-image: linear-gradient(18deg,#9fceec,whitesmoke);}
+  7.5% {background-image: linear-gradient(27deg,#9fceec,whitesmoke);}
+  10% {background-image: linear-gradient(36deg,#9fceec,whitesmoke);}
+  12.5% {background-image: linear-gradient(45deg,#9fceec,whitesmoke);}
+  15% {background-image: linear-gradient(54deg,#9fceec,whitesmoke);}
+  17.5% {background-image: linear-gradient(63deg,#9fceec,whitesmoke);}
+  20% {background-image: linear-gradient(72deg,#9fceec,whitesmoke);}
+  22.5% {background-image: linear-gradient(81deg,#9fceec,whitesmoke);}
+  25% {background-image: linear-gradient(90deg,#9fceec,whitesmoke);}
+  27.5% {background-image: linear-gradient(99deg,#9fceec,whitesmoke);}
+  30% {background-image: linear-gradient(108deg,#9fceec,whitesmoke);}
+  32.5% {background-image: linear-gradient(117deg,#9fceec,whitesmoke);}
+  35% {background-image: linear-gradient(126deg,#9fceec,whitesmoke);}
+  37.5% {background-image: linear-gradient(135deg,#9fceec,whitesmoke);}
+  40% {background-image: linear-gradient(144deg,#9fceec,whitesmoke);}
+  42.5% {background-image: linear-gradient(153deg,#9fceec,whitesmoke);}
+  45% {background-image: linear-gradient(162deg,#9fceec,whitesmoke);}
+  47.5% {background-image: linear-gradient(171deg,#9fceec,whitesmoke);}
+  50% {background-image: linear-gradient(180deg,#9fceec,whitesmoke);}
+  52.5% {background-image: linear-gradient(189deg,#9fceec,whitesmoke);}
+  55% {background-image: linear-gradient(198deg,#9fceec,whitesmoke);}
+  57.5% {background-image: linear-gradient(207deg,#9fceec,whitesmoke);}
+  60% {background-image: linear-gradient(216deg,#9fceec,whitesmoke);}
+  62.5% {background-image: linear-gradient(225deg,#9fceec,whitesmoke);}
+  65% {background-image: linear-gradient(234deg,#9fceec,whitesmoke);}
+  67.5% {background-image: linear-gradient(243deg,#9fceec,whitesmoke);}
+  70% {background-image: linear-gradient(252deg,#9fceec,whitesmoke);}
+  72.5% {background-image: linear-gradient(261deg,#9fceec,whitesmoke);}
+  75% {background-image: linear-gradient(270deg,#9fceec,whitesmoke);}
+  77.5% {background-image: linear-gradient(279deg,#9fceec,whitesmoke);}
+  80% {background-image: linear-gradient(288deg,#9fceec,whitesmoke);}
+  82.5% {background-image: linear-gradient(297deg,#9fceec,whitesmoke);}
+  85% {background-image: linear-gradient(306deg,#9fceec,whitesmoke);}
+  87.5% {background-image: linear-gradient(315deg,#9fceec,whitesmoke);}
+  90% {background-image: linear-gradient(324deg,#9fceec,whitesmoke);}
+  92.5% {background-image: linear-gradient(333deg,#9fceec,whitesmoke);}
+  95% {background-image: linear-gradient(342deg,#9fceec,whitesmoke);}
+  97.5% {background-image: linear-gradient(351deg,#9fceec,whitesmoke);}
+  100% {background-image: linear-gradient(360deg,#9fceec,whitesmoke);}
+}
+page{
+    height: 100%;    /* 使用page的height可以使页面占全屏 */
+    /* background: url(https://s3.bmp.ovh/imgs/2021/12/21371a050a0d05c5.png); */
+    /* 图床链接 */
+    /* background: whitesmoke;
+    background-size: cover;
+    background-attachment: fixed; */
+    animation-name: back-ani;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   }
+  .login-container{
+    padding: 0 10%;
+    height: 100%;
+  }
+  .title{
+    
+    font-size: large;
+    text-align: center;
+    padding-top: 40%;
+    font-weight: 200;
+  }
+  .title>br{
+    border-bottom: 2.5px #00375f solid;
+  }
+  .login-box{
+    margin-top: 10%;
+    padding: 10% 10%;
+    background-color: white;
+    border-radius: 15px;
+  }
+  .login-box>label{
+    border-bottom:2.5px #00375f solid;
+  }
+  .login-box>input{
+    margin: 5% 0 8% 0;
+    border-bottom: 1rpx solid lightgray;
+  }
+  .login-btn{
+    width: 100%!important;
+    background-color: #00375f;
+    color: white;
+    font-weight: normal;
+  }
+   
+  .three-line{
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    color: lightgray;
+  }
+   

@@ -1,0 +1,26 @@
+<!--pages/login/login.wxml-->
+<view class="login-container">
+  <view class="title">SCNU墙注册</view>
+  <view class="login-box">
+    <label>用户名</label>
+    <input bindinput="inputName" placeholder="请输入用户名" placeholder-style="color:#999999;" />
+    <label>密码</label>
+    <input bindinput="inputPassword" placeholder="请输入密码" password />
+    <label>年级</label>
+    <view class="selectbox">
+      <picker bindchange="bindPickerChange" value="{{gradeArr}}" range="{{gradeArr}}">
+      <view wx:if="{{gradeArr[index]}}" class="selectmenu">{{gradeArr[index]}}级</view>
+      <view wx:else class="placeholder" style="width: 538rpx; height: 50rpx; display: block; box-sizing: border-box; left: 0rpx; top: 6rpx">请选择年级</view>
+      </picker>
+    </view>
+    <input bindinput="inputGrade" placeholder="请输入年级" placeholder-style="color:#999999;" hidden="hidden"/>
+    <label>专业</label>
+    <input bindinput="inputproject" placeholder="请输入专业" placeholder-style="color:#999999;" />
+    <label>昵称</label>
+    <input bindinput="inputnickname" placeholder="请输入昵称" placeholder-style="color:#999999;" />
+    <button class="btn"  bindtap="register">注册</button>
+    <view class="turnback"><navigator url="/pages/login/login">已有账号？登录</navigator></view>
+  </view>
+
+  
+</view>

@@ -1,0 +1,117 @@
+/* pages/person.wxss */
+page {
+  background-color: white;
+}
+
+.total {
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 顶部个人信息 */
+  .top-info {
+    position: relative;
+  
+  }
+  .user-info {
+    position: absolute;
+    padding: 50rpx;
+    display: flex;
+    align-items: center;
+  }
+  .user-avatar {
+    border-radius: 100%;
+    width: 128rpx;
+    height: 128rpx;
+  }
+  .user-data {
+    color: black;
+    line-height: 60rpx;
+    margin-left: 30rpx;
+  }
+  
+  .user-nickname {
+    font-weight: 500;
+    font-size: 38rpx;
+  }
+  .user-intro {
+    font-weight: 200;
+    font-size: 28rpx;
+  }
+  
+  .user-info-block {
+    display: flex;
+    padding: 220rpx 70rpx 0 65rpx;
+    align-items: center;
+    margin: auto auto 5rpx auto;
+  }
+  
+  .user-info-data {
+    position: absolute;
+    width: 150rpx;
+    height: 50rpx;
+    display: block;
+    text-align: center;
+    font-size: 28rpx;
+  }
+  .user-info-block-2 {
+    display: flex;
+    padding: 10rpx 0rpx 0 90rpx;
+  }
+  
+  .user-info-data-2 {
+    font-size: 24rpx;
+    color: grey;
+  }
+  
+  /* 组件 */
+  .mid-total {
+    position: relative;
+    padding: 0.5rem 1rem 1rem 1rem;
+    background-color: #fafafa;
+    text-align: left;
+    margin: 30rpx 30rpx;
+    border-radius: 1rem;
+  }
+  
+  .mid-title {
+    font-size: 34rpx;
+    font-weight: 500;
+    text-indent: 10rpx;
+    margin: 10rpx 0;
+  }
+  .mid-content {
+    position: relative;
+    display: block;
+    margin: 0rem 0.5rem 1rem 0.75rem;
+    width: max-content;
+  }
+  
+  .mid-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: 28rpx;
+    font-weight: 300;
+  }
+  
+  .mid-image {
+    display: block;
+    width: max-content;
+  }
+  .mid-icon {
+    width: 50rpx;
+    height: 50rpx;
+    margin: 0.5rem 1.5rem 0rem 1.5rem;
+    opacity: 80%;
+  }
+  .logOut {
+    position: absolute;
+    width: 50rpx;
+    height: 50rpx;
+    top: 30%;
+    right: 5%;
+    opacity: 75%;
+  }

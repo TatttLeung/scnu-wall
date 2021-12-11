@@ -1,0 +1,56 @@
+<!--pages/perinfo.wxml-->
+<view class="total">
+  <view class="top-info">
+    <view class="user-info">
+      <image class="user-avatar" mode="aspectFill" src="https://s3.bmp.ovh/imgs/2021/12/be0a0513f7ed4424.jpg"></image>
+      <view class="user-data">
+        <view class="user-nickname">{{perinfo.name}}</view>
+        <view class="user-intro">{{perinfo.grade}}级 {{perinfo.project}}</view>
+      </view>
+      </view>
+      <image class="logOut" catchtap="logOut" src="https://s6.jpg.cm/2021/12/11/LlJPpR.png" mode="aspectFill"></image>
+    <view class="user-info-block">
+        <view class="user-info-data" style="left: 13%; position: absolute; top: 195rpx">{{perinfo.msg}}</view>
+        <view class="user-info-data" style="left: 31%; position: absolute; top: 195rpx">{{perinfo.trade}}</view>
+        <view class="user-info-data" style="left: 50%; position: absolute; top: 195rpx">{{perinfo.subscribe}}</view>
+        <view class="user-info-data" style="left: 68%; position: absolute; top: 195rpx">{{perinfo.fans}}</view>
+    </view>
+    <view class="user-info-block-2">
+        <view class="user-info-data" style="left: 13%; position: absolute; top: 230rpx; font-weight: 100;">发言</view>
+        <view class="user-info-data" style="left: 31%; position: absolute; top: 230rpx; font-weight: 100;">交易</view>
+        <view class="user-info-data" style="left: 50%; position: absolute; top: 230rpx; font-weight: 100;">关注</view>
+        <view class="user-info-data" style="left: 68%; position: absolute; top: 230rpx; font-weight: 100;">粉丝</view>
+    </view>
+  </view>
+  <text>\n</text>
+  <view class="mid-total">
+    <view class="mid-title">我的内容</view>
+    <view class="mid-content">
+      <view class="mid-image">
+        <image src="http://r3sgj8r1r.hn-bkt.clouddn.com/Talk.png" mode="aspectFill" class="mid-icon"></image>
+        <image src="http://r3sgj8r1r.hn-bkt.clouddn.com/Deal.png" mode="aspectFill" class="mid-icon"></image>
+        <image src="http://r3sgj8r1r.hn-bkt.clouddn.com/Like.png" mode="aspectFill" class="mid-icon"></image>
+        <image src="http://r3sgj8r1r.hn-bkt.clouddn.com/album.png" mode="aspectFill" class="mid-icon"></image>
+      </view>
+      <view class="mid-text" style="left: 1.5rem;">发言</view>
+      <view class="mid-text" style="left: 6rem;">交易</view>
+      <view class="mid-text" style="left: 10.5rem;">喜欢</view>
+      <view class="mid-text" style="left: 15rem;">相册</view>
+      <text>\n</text>
+      <view class="mid-image">
+        <image src="http://r3sgj8r1r.hn-bkt.clouddn.com/box.png" mode="aspectFill" class="mid-icon"></image>
+        <image src="http://r3sgj8r1r.hn-bkt.clouddn.com/download.png" mode="aspectFill" class="mid-icon"></image>
+        <image src="http://r3sgj8r1r.hn-bkt.clouddn.com/help.png" mode="aspectFill" class="mid-icon" style="width: 45rpx; height: 45rpx;"></image>
+        <image src="http://r3sgj8r1r.hn-bkt.clouddn.com/set.png" mode="aspectFill" class="mid-icon"></image>
+      </view>
+      <view class="mid-text" style="left: 1.5rem;">箱子</view>
+      <view class="mid-text" style="left: 6rem;">下载</view>
+      <view class="mid-text" style="left: 10.5rem;">帮助</view>
+      <view class="mid-text" style="left: 15rem;">设置</view>
+    </view>
+  </view>
+</view>
+
+
+
+

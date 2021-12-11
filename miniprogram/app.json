@@ -1,0 +1,35 @@
+{
+    "pages": [
+        "pages/login/login",
+        "pages/index/index",
+        "pages/register/index",
+        "pages/index/personinfo"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#00375f",
+        "navigationBarTitleText": "SCNU墙",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "backgroundColor": "white",
+        "color": "#000000",
+        "selectedColor": "#00375f",
+        "list": [
+            {
+                "text": "首页",
+                "iconPath": "icon/Home.png",
+                "pagePath": "pages/index/index",
+                "selectedIconPath": "icon/Home_active.png"
+            },
+            {
+                "text": "我的",
+                "iconPath": "icon/My.png",
+                "pagePath": "pages/index/personinfo",
+                "selectedIconPath": "icon/My_active.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
+}

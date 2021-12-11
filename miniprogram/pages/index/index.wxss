@@ -1,0 +1,118 @@
+/**index.wxss**/
+page {
+    background: whitesmoke;
+    width: 100%;
+    height: 100%;
+    font: 24rpx;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .viewTotal {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  .viewbox {
+    display: block;
+    background: white;
+    margin: 0.3rem;
+    padding: 1rem 5% 3rem 5%;
+    text-align:left;
+    border-radius: 0.75rem;
+  }
+  
+  .viewtitle {
+    font-size: 38rpx;
+    letter-spacing: 0.1rem;
+    margin-left: 20%;
+    margin-top: 0%;
+    font-weight: 600;
+  }
+  .viewdescribe {
+    font-size: 24rpx;
+    margin-left: 20%;
+    margin-top: 0%;
+    font-weight: 100;
+  }
+  .viewcontent {
+    margin-top: 10%;
+    font-size: 32rpx;
+    font-weight: 200;
+    text-indent: 8%;
+    line-height: 1.5rem;
+  }
+  /* 头像 */
+  .image {
+    position: absolute;
+    display: flex;
+    width: 100rpx;
+    height: 100rpx;
+    right: 80%;
+    opacity: 90%;
+    margin-top: -1%;
+    box-shadow: 0px 1px 5px 0.5px #00375f;
+    border-radius: 50%;
+  }
+  
+  /* 广场 与 关注 */
+  
+  .topFather {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: whitesmoke;
+    text-align: center;
+  }
+  
+  .topNav {
+    font-size: 1rem;
+    color: #00375f;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    padding: 1rem 0;
+    transition: all 0.1s;
+  }
+  .topNavactive {
+    font-size: 1.25rem;
+    color: #00375f;
+    border-bottom: #00375f solid 10rpx;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    padding: 1rem 0;
+    transition: all 0.1s;
+  }
+  /* @keyframes deco {
+    0% {
+      rotate: 0deg;
+      background-color: #00375f;
+    }
+    50% {
+      rotate: 180deg;
+      background-color: #9fceec;
+    }
+    100% {
+      rotate: 360deg;
+      background-color: #00375f;
+    }
+  } */
+  
+  /* .deco {
+    margin: 0;
+    padding: 0;
+    display:inline-flex;
+    width: 107.75rpx;
+    height: 107.75rpx;
+    animation-name: deco;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  } */
